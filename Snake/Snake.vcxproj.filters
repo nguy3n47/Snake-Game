@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="eat.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="FAIL.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Gate.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="start.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\intro.txt" />
+    <Text Include="data\save.txt" />
+    <Text Include="data\start.txt" />
+    <Text Include="Debug\Snake.Build.CppClean.log" />
+    <Text Include="Debug\Snake.log" />
+    <Text Include="Debug\Snake.vcxproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\Snake.tlog\CL.command.1.tlog" />
+    <None Include="Debug\Snake.tlog\CL.read.1.tlog" />
+    <None Include="Debug\Snake.tlog\CL.write.1.tlog" />
+    <None Include="Debug\Snake.tlog\link.command.1.tlog" />
+    <None Include="Debug\Snake.tlog\link.read.1.tlog" />
+    <None Include="Debug\Snake.tlog\link.write.1.tlog" />
+    <None Include="Debug\Snake.tlog\link-cvtres.read.1.tlog" />
+    <None Include="Debug\Snake.tlog\link-cvtres.write.1.tlog" />
+    <None Include="Debug\Snake.tlog\link-rc.read.1.tlog" />
+    <None Include="Debug\Snake.tlog\link-rc.write.1.tlog" />
+    <None Include="Debug\Snake.tlog\Snake.lastbuildstate" />
+    <None Include="Debug\Snake.tlog\unsuccessfulbuild" />
+    <None Include="Debug\vc142.idb" />
+    <None Include="Debug\vc142.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Debug\Source.obj" />
+  </ItemGroup>
+</Project>
